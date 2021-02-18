@@ -1,0 +1,6 @@
+module Pods_TalentVillage_TalentVillageTests {
+  umbrella header "Pods-TalentVillage-TalentVillageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
