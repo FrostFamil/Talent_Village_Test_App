@@ -1,13 +1,18 @@
 import * as React from 'react';
 import {View, Text} from 'react-native';
+import { Icon } from 'react-native-elements'
 
-const HeaderTitle = () => {
+const HeaderRight = () => {
 
     return (
-        <View>
-            <Text>1</Text>
+        <View style={{ right: 10 }}>
+            <Icon
+                size={27}
+                name='notifications-outline'
+                type='ionicon'
+            />
         </View>
     )
 }
 
-export default HeaderTitle;
+export default HeaderRight;
