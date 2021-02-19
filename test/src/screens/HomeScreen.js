@@ -1,9 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useRef} from 'react';
 import {View, Text, ScrollView} from 'react-native';
 import styles from '../styles/styles';
 import StoryComponent from '../components/StoryComponent';
 import list_response from '../mockData/list_response.json';
+import sheet_response from '../mockData/sheet_response.json';
 import CardComponent from '../components/CardComponent';
+import BottomPopupComponent from '../components/BottomPopupComponent';
 
 
 
@@ -36,6 +38,7 @@ const HomeScreen = () => {
                             key={data.id} 
                             url={data.image_url}
                             isOnline={data.isOnline}
+                            onPressFunction={() => this.refRBSheet.openPopup()}
                         />
                     ))}
                 </ScrollView>
@@ -52,6 +55,13 @@ const HomeScreen = () => {
                         />
                     ))}
                 </ScrollView>
+            </View>
+
+            <View>
+                <BottomPopupComponent
+                    refRBSheet={ref => (this.refRBSheet = ref)}
+                    responseData={sheet_response}
+                />
             </View>
         </View>
     )

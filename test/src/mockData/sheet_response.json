@@ -13,6 +13,26 @@
         "posts": 23,
         "talent_followers": 24632,
         "talent_following": 62,
-        "is_following": true
+        "is_following": true,
+        "uploaded_images": [
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/3ca3585112d67b1bae1d3bf2126b03aa.jpg"
+            },
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg"
+            },
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/54817db14fdafe7eb93fbcb1c386e8a4.jpg"
+            },
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/3ca3585112d67b1bae1d3bf2126b03aa.jpg"
+            },
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg"
+            },
+            {
+                "uri": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/54817db14fdafe7eb93fbcb1c386e8a4.jpg"
+            }
+        ]
     }
 }
