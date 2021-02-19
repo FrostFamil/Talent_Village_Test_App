@@ -1,21 +1,21 @@
 import * as React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from '../styles/styles';
 import themeStyle from '../styles/theme.style';
 import CircleImageComponent from './CircleImageComponent';
 
 
 
-const StoryComponent = ({url, isOnline}) => {
+const StoryComponent = ({url, isOnline, onPressFunction}) => {
 
     return (
-        <View>
-            <View style={styles.storyComponentMainView}>
+        <View >
+            <TouchableOpacity style={styles.storyComponentMainView} onPress={onPressFunction}>
                 <CircleImageComponent 
                     customStyle={styles.storyComponentImage}
                     url={url}
                 />
-            </View>
+            </TouchableOpacity>
             <View 
                 style={{
                     ...styles.storyComponentOnlineDot, 
