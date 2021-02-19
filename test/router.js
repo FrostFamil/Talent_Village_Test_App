@@ -26,6 +26,7 @@ function AppNavigator() {
               title: '',
               headerTitle: props => <HeaderTitle/>,
               headerRight: props => <HeaderRight/>,
+              headerLeft: prop => <HeaderLeft />,
               headerStyle: {
                 backgroundColor: themeStyle.PRIMARY_COLOR
               }
