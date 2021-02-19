@@ -65,11 +65,12 @@ const styles = {
   },
 
   cardComponentDescriptionTextView: {
-    marginHorizontal: 7
+    margin: 7
   },
 
   cardComponentDescriptionText: {
-    color: themeStyle.LIGHT_GREY
+    color: themeStyle.LIGHT_GREY,
+    lineHeight: 20
   },
 
 
@@ -108,11 +109,14 @@ const styles = {
   },
 
   logoBrandDateComponentStoryAndTextsView: {
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginLeft: 10,
+    marginTop: 15
   },
 
   logoBrandDateComponentBrandNameAndDateView: {
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginLeft: 10
   },
 
   logoBrandDateComponentBrandNameText: {
@@ -130,7 +134,15 @@ const styles = {
     alignItems: 'flex-end', 
     right: 20, 
     justifyContent: 'center'
-  }
+  },
+
+  logoBrandDateComponentComponentImage: {
+    height: 70, 
+    width: 70, 
+    borderRadius: 40, 
+    borderWidth: 2, 
+    borderColor: themeStyle.PRIMARY_COLOR
+  },
 };
 
 export default StyleSheet.create(styles);

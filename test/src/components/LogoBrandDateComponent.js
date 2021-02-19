@@ -4,6 +4,7 @@ import styles from '../styles/styles';
 import themeStyle from '../styles/theme.style';
 import StoryComponent from './StoryComponent';
 import { Icon } from 'react-native-elements'
+import CircleImageComponent from './CircleImageComponent';
 
 
 
@@ -13,9 +14,9 @@ const LogoBrandDateComponent = ({url, brandName, date}) => {
         <View style={styles.logoBrandDateComponentMainView}>
 
             <View style={styles.logoBrandDateComponentStoryAndTextsView}>
-                <StoryComponent 
+                <CircleImageComponent 
                     url={url}
-                    isOnline={false}
+                    customStyle={styles.logoBrandDateComponentComponentImage}
                 />
 
                 <View style={styles.logoBrandDateComponentBrandNameAndDateView}>
