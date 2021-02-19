@@ -143,6 +143,97 @@ const styles = {
     borderWidth: 2, 
     borderColor: themeStyle.PRIMARY_COLOR
   },
+
+  //Button Component Styles
+  buttonComponentMainView: {
+    borderWidth: 1, 
+    height: 30, 
+    borderRadius: 5
+  },
+
+  buttonComponentButton: {
+    alignItems: 'center', 
+    top: 5, 
+    width: 100
+  },
+
+
+  //Number and Text Component Styles
+  numberTextComponentMainView: {
+    flexDirection: 'row'
+  },
+
+  numberTextComponentUpperText: {
+    fontWeight: "600", 
+    fontSize: 25, 
+    textAlign: 'center'
+  },
+  
+  numberTextComponentLowerText: {
+    color: themeStyle.LIGHT_GREY, 
+    fontSize: 13
+  },
+
+  //Bottom Pop up Styles
+  bottomPopupComponent: {
+    borderRadius: 30
+  },
+
+  bottomPopupComponentImageAndDetails: {
+    flexDirection: 'row', 
+    alignItems: 'center', 
+    justifyContent: 'space-around', 
+    marginTop: 10
+  },
+
+  bottomPopupComponentTextViews: {
+    marginLeft: 30, 
+    marginTop: 10
+  },
+
+  bottomPopupComponentTextName: {
+    fontWeight: 'bold', 
+    fontSize: 20
+  },
+
+  bottomPopupComponentTextTags: {
+    fontSize: 16
+  },
+
+  bottomPopupComponentTextBio: {
+    fontSize: 14, 
+    color: themeStyle.LIGHT_GREY, 
+    lineHeight: 20
+  },
+
+  bottomPopupComponentButtonsMainView: {
+    flexDirection: 'row', 
+    justifyContent: 'space-around', 
+    marginTop: 30, 
+    marginLeft: 20, 
+    marginRight: 20
+  },
+
+  bottomPopupComponentIconButtonsView: {
+    flexDirection: 'row', 
+    justifyContent: 'space-around', 
+    marginVertical: 17,
+  },
+
+  bottomPopupComponentIconsMainView: {
+    borderTopWidth: 0.4, 
+    borderBottomWidth: 0.4,
+    marginTop: 30,
+    borderColor: themeStyle.LIGHT_GREY
+  },
+
+
+  //List Images Component
+  listImagesComponentImage: {
+    width: '100%', 
+    height: '100%', 
+    borderRadius: 10
+  }
 };
 
 export default StyleSheet.create(styles);

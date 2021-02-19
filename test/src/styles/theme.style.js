@@ -6,5 +6,6 @@ export default {
   DARK_GOLD_COLOR: '#A99476',
   ONLINE_COLOR: '#00CC00',
   LIGHT_GREY: '#989898',
-  WHITE: '#FFFFFF'
+  WHITE: '#FFFFFF',
+  BLACK: '#000000'
 };
