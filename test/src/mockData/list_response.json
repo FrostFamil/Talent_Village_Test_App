@@ -1,0 +1,92 @@
+{
+    "status": "success",
+    "message": "Listed successfully",
+    "data": {
+      "new_users": [
+        {
+          "id": 123,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/3ca3585112d67b1bae1d3bf2126b03aa.jpg",
+          "isOnline": true
+        },
+        {
+          "id": 456,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/54817db14fdafe7eb93fbcb1c386e8a4.jpg",
+          "isOnline": true
+        },
+        {
+          "id": 789,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/3ca3585112d67b1bae1d3bf2126b03aa.jpg",
+          "isOnline": false
+        },
+        {
+          "id": 101,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/54817db14fdafe7eb93fbcb1c386e8a4.jpg",
+          "isOnline": true
+        },
+        {
+          "id": 121,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/3ca3585112d67b1bae1d3bf2126b03aa.jpg",
+          "isOnline": false
+        },
+        {
+          "id": 314,
+          "image_url": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/influencerprofileimage/54817db14fdafe7eb93fbcb1c386e8a4.jpg",
+          "isOnline": false
+        }
+      ],
+      "campaigns": [
+        {
+          "type": "campaign",
+          "is_favourited": false,
+          "hero_image": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg",
+          "campaign": {
+            "id": 37,
+            "brand_logo": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignlogoimage/thumb/9ca1746e12d4e1b076b0d2b59ecff2e6.jpg",
+            "brand": "Carolina Herrera",
+            "creation_date": "13th October 2020",
+            "strapline": "A new brief we think you'd be great for is now available by Burberry for Winter 2020"
+          },
+          "offer": null
+        },
+        {
+          "type": "campaign",
+          "is_favourited": false,
+          "hero_image": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg",
+          "campaign": {
+            "id": 37,
+            "brand_logo": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignlogoimage/thumb/9ca1746e12d4e1b076b0d2b59ecff2e6.jpg",
+            "brand": "Carolina Herrera",
+            "creation_date": "13th October 2020",
+            "strapline": "A new brief we think you'd be great for is now available by Burberry for Winter 2020"
+          },
+          "offer": null
+        },
+        {
+          "type": "campaign",
+          "is_favourited": false,
+          "hero_image": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg",
+          "campaign": {
+            "id": 37,
+            "brand_logo": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignlogoimage/thumb/9ca1746e12d4e1b076b0d2b59ecff2e6.jpg",
+            "brand": "Carolina Herrera",
+            "creation_date": "13th October 2020",
+            "strapline": "A new brief we think you'd be great for is now available by Burberry for Winter 2020"
+          },
+          "offer": null
+        },
+        {
+          "type": "campaign",
+          "is_favourited": false,
+          "hero_image": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignheroimage/resize/image-21564vdxPkKvFdQOE.jpg",
+          "campaign": {
+            "id": 37,
+            "brand_logo": "https://media-modelvillage.s3.eu-west-2.amazonaws.com/uploads/campaignlogoimage/thumb/9ca1746e12d4e1b076b0d2b59ecff2e6.jpg",
+            "brand": "Carolina Herrera",
+            "creation_date": "13th October 2020",
+            "strapline": "A new brief we think you'd be great for is now available by Burberry for Winter 2020"
+          },
+          "offer": null
+        }
+      ]
+    }
+  }
