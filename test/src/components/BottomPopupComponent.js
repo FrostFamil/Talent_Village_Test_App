@@ -9,10 +9,17 @@ import ButtonComponent from './ButtonComponent';
 import UserDescriptionComponent from './UserDescriptionComponent';
 import { Icon } from 'react-native-elements'
 import ListImagesComponent from './ListImagesComponent';
+import CustomIconButtonComponent from './CustomIconButtonComponent';
 
 const deviceHeight = Dimensions.get('window').height;
 
 class BottomPopupComponent extends React.Component {
+
+    state = {
+        imageIcon: true,
+        videoIcon: false,
+        bookmarkIcon: false
+    }
 
     componentDidMount() {
         const { refRBSheet } = this.props;
@@ -27,8 +34,33 @@ class BottomPopupComponent extends React.Component {
         this.RBSheet.open()
     }
 
+    imageIconPressed = () => {
+        this.setState({
+            imageIcon: true,
+            videoIcon: false,
+            bookmarkIcon: false
+        })
+    }
+
+    videoIconPressed = () => {
+        this.setState({
+            imageIcon: false,
+            videoIcon: true,
+            bookmarkIcon: false
+        })
+    }
+
+    bookmarkIconPressed = () => {
+        this.setState({
+            imageIcon: false,
+            videoIcon: false,
+            bookmarkIcon: true
+        })
+    }
+
     render() {
         const {responseData} = this.props;
+        const { imageIcon, videoIcon, bookmarkIcon } = this.state;
         const {bio, profile_image, name, tags, is_following, uploaded_images} = responseData.data;
 
         return (
@@ -76,22 +108,28 @@ class BottomPopupComponent extends React.Component {
 
                         <View style={styles.bottomPopupComponentIconsMainView}>
                             <View style={styles.bottomPopupComponentIconButtonsView}>
-                                <Icon
+                                <CustomIconButtonComponent 
                                     size={30}
                                     name='image'
                                     type='entypo'
+                                    active={imageIcon}
+                                    onPress={this.imageIconPressed}
                                 />
 
-                                <Icon
+                                <CustomIconButtonComponent 
                                     size={30}
                                     name='videocam-sharp'
                                     type='ionicon'
+                                    onPress={this.videoIconPressed}
+                                    active={videoIcon}
                                 />
 
-                                <Icon
+                                <CustomIconButtonComponent 
                                     size={30}
                                     name='bookmark-outline'
                                     type='ionicon'
+                                    onPress={this.bookmarkIconPressed}
+                                    active={bookmarkIcon}
                                 />
                             </View>
                         </View>
