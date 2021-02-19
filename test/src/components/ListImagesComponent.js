@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Image} from 'react-native';
 import styles from '../styles/styles';
 import GridList from 'react-native-grid-list';
 

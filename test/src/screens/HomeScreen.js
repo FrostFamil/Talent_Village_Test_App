@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect} from 'react';
 import {View, Text, ScrollView} from 'react-native';
 import styles from '../styles/styles';
 import StoryComponent from '../components/StoryComponent';
@@ -7,6 +7,7 @@ import sheet_response from '../mockData/sheet_response.json';
 import CardComponent from '../components/CardComponent';
 import BottomPopupComponent from '../components/BottomPopupComponent';
 import FetchData from '../utils/FetchData';
+import { WELCOME_MESSAGE } from '../utils/ConstantValues';
 
 
 
@@ -29,7 +30,7 @@ const HomeScreen = () => {
         <View style={styles.homeScreenMainView}>
             <View style={styles.homeScreenTextView}>
                 <Text style={styles.homeScreenText}>
-                    Welcome to the Community
+                    {WELCOME_MESSAGE}
                 </Text>
             </View>
 

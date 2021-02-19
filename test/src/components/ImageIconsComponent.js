@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {View, Text, Image} from 'react-native';
 import styles from '../styles/styles';
-import themeStyle from '../styles/theme.style';
 import { Icon } from 'react-native-elements'
+import { INTERESTED } from '../utils/ConstantValues';
 
 
 
@@ -40,7 +40,7 @@ const ImageIconsComponent = ({url}) => {
 
             <View style={styles.imageIconComponentTextView}>
                 <Text style={styles.imageIconComponentText}>
-                    I'm Interested
+                    {INTERESTED}
                 </Text>
             </View>
         </View>
