@@ -3,6 +3,7 @@ import {View, Text, ScrollView} from 'react-native';
 import styles from '../styles/styles';
 import StoryComponent from '../components/StoryComponent';
 import list_response from '../mockData/list_response.json';
+import CardComponent from '../components/CardComponent';
 
 
 
@@ -35,6 +36,19 @@ const HomeScreen = () => {
                             key={data.id} 
                             url={data.image_url}
                             isOnline={data.isOnline}
+                        />
+                    ))}
+                </ScrollView>
+            </View>
+
+            <View style={{margin: 20, flex: 1}}>
+                <ScrollView
+                    showsVerticalScrollIndicator={false}
+                >
+                    {list_response.data.campaigns.map(data => (
+                        <CardComponent
+                            key={data.campaign.id}
+                            data={data} 
                         />
                     ))}
                 </ScrollView>
