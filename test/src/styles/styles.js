@@ -35,7 +35,7 @@ const styles = {
   storyComponentMainView: {
     height: 86,
     width: 86,
-    margin: 10,
+    margin: 5,
     borderRadius: 40,
     borderWidth: 2,
     borderColor: themeStyle.DARK_GOLD_COLOR
