@@ -1,3 +1,9 @@
+# Steps for running Project
+
+* run **npm install** inside **test** folder
+* run **pod install** inside **ios** folder
+* run **npm run ios** inside **test** folder
+
 # Talent Village Coding Test: ReactNative Engineer
 
 **Please upload this project to your preferred source control platform and share with Model Village. Place your work inside the `/test` folder**
