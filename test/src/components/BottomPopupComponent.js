@@ -68,9 +68,14 @@ class BottomPopupComponent extends React.Component {
                 <RBSheet
                     ref={ref => {this.RBSheet = ref}}
                     height={deviceHeight/1.4}
+                    closeOnDragDown={true}
+                    dragFromTopOnly={true}
                     customStyles={{
                         container: {
                             ...styles.bottomPopupComponent
+                        },
+                        draggableIcon: {
+                        backgroundColor: "#000"
                         }
                     }}
                 >
