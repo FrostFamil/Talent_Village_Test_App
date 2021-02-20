@@ -2,7 +2,6 @@ import * as React from 'react';
 import {View, Text} from 'react-native';
 import styles from '../styles/styles';
 import themeStyle from '../styles/theme.style';
-import StoryComponent from './StoryComponent';
 import { Icon } from 'react-native-elements'
 import CircleImageComponent from './CircleImageComponent';
 

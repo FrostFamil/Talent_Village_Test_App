@@ -65,7 +65,8 @@ const styles = {
   },
 
   cardComponentDescriptionTextView: {
-    margin: 7
+    margin: 7,
+    alignItems: 'center'
   },
 
   cardComponentDescriptionText: {

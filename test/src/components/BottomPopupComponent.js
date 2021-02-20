@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, Dimensions, ScrollView} from 'react-native';
+import {View, Dimensions, ScrollView} from 'react-native';
 import styles from '../styles/styles';
 import RBSheet from "react-native-raw-bottom-sheet";
 import StoryComponent from './StoryComponent';
@@ -7,9 +7,9 @@ import NumberTextComponent from './NumberTextComponent';
 import themeStyle from '../styles/theme.style';
 import ButtonComponent from './ButtonComponent';
 import UserDescriptionComponent from './UserDescriptionComponent';
-import { Icon } from 'react-native-elements'
 import ListImagesComponent from './ListImagesComponent';
 import CustomIconButtonComponent from './CustomIconButtonComponent';
+import { FOLLOWING, FOLLOW, CHAT, PROFILE } from '../utils/ConstantValues';
 
 const deviceHeight = Dimensions.get('window').height;
 
@@ -94,15 +94,15 @@ class BottomPopupComponent extends React.Component {
 
                         <View style={styles.bottomPopupComponentButtonsMainView}>
                             <ButtonComponent 
-                                text={is_following ? "Following" : "Follow"}
+                                text={is_following ? FOLLOWING : FOLLOW}
                                 buttonBackgroundColor={themeStyle.DARK_GOLD_COLOR}
                                 textColor={themeStyle.WHITE}
                             />
                             <ButtonComponent 
-                                text={"Chat"}
+                                text={CHAT}
                             />
                             <ButtonComponent 
-                                text={"Profile"}
+                                text={PROFILE}
                             />
                         </View>
 

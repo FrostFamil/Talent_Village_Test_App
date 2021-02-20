@@ -1,8 +1,5 @@
 import * as React from 'react';
-import {View, Text, Image} from 'react-native';
-import styles from '../styles/styles';
-import themeStyle from '../styles/theme.style';
-
+import {View, Image} from 'react-native';
 
 
 const CircleImageComponent = ({url, customStyle}) => {

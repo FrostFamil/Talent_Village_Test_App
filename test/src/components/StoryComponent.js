@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, Image, TouchableOpacity} from 'react-native';
+import {View, TouchableOpacity} from 'react-native';
 import styles from '../styles/styles';
 import themeStyle from '../styles/theme.style';
 import CircleImageComponent from './CircleImageComponent';
