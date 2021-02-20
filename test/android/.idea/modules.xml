@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TalentVillage.iml" filepath="$PROJECT_DIR$/.idea/modules/TalentVillage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TalentVillage.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TalentVillage.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1386975337/TalentVillage.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1386975337/TalentVillage.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2039373536/TalentVillage.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-2039373536/TalentVillage.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1030043396/TalentVillage.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1030043396/TalentVillage.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-681512567/TalentVillage.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-681512567/TalentVillage.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/610924769/TalentVillage.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/610924769/TalentVillage.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/663030454/TalentVillage.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/663030454/TalentVillage.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
